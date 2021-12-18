@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="letras.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de las letras</title>
+    <script src="diccionario.js"></script>
+    <script src="funciones.js"></script>
+</head>
+
+<body>
+    <div id="intro">
+        <h1>Juego de las letras</h1>
+        <p>Para jugar, pulsa los botones de <strong>"VOCAL"</strong> o <strong>"CONSONANTE"</strong> en el orden
+            que quiera, hasta un número de 9 letras.
+            Después, pulsa el botón de <strong>"Buscar soluciones"</strong> para que aparezcan las palabras que
+            contienen algunas de esas letras. Intenta adivinar estas palabras antes de visualizarlas.</p>
+
+        <button onclick="jugar()">Jugar</button>
+    </div>
+
+    <div id="juego" style="display: none;">
+    </div>
+</body>
+
+</html>
