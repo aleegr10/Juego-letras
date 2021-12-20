@@ -19,9 +19,6 @@ h1{
 button{
     cursor: pointer;
 }
-#vocal{
-    margin-right: 5px;
-}
 @media screen and (max-width: 800px){
     body{  
     margin-left: 0px;
