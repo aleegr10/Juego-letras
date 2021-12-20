@@ -68,7 +68,7 @@
 
         function cargarSolucion() {
             let letras = document.getElementById("texto").value.toLowerCase().split("").sort();
-            console.log("letras: " + letras);
+            //console.log("letras: " + letras);
             let state = true;
 
             diccionario.forEach(function(elemento) {
@@ -83,7 +83,7 @@
                     solucion.push(elemento);
                 }
             });
-            console.log(solucion);
+            //console.log(solucion);
         }
 
         function escribePalabra() {
